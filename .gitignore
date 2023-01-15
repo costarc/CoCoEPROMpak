@@ -1,0 +1,6 @@
+*.?\#?
+*~
+*.pro
+eagle.epf
+._*
+.DS_Store
