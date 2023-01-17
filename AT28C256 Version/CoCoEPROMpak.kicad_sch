@@ -1652,17 +1652,17 @@
   )
 
   (text "4k-64k EPROM Cartridge\nfor Tandy/TRS-80 Color Computer"
-    (at 160.02 43.18 180)
+    (at 160.02 43.18 0)
     (effects (font (size 6.4516 5.4838)) (justify right bottom))
     (uuid 16971c95-8958-4226-b154-a8c20ffd5583)
   )
   (text "This version with support for EEPROM AT28C256 by RCC@2023\nhttps://github.com/costarc/CoCoEPROMpak"
-    (at 25.4 250.19 180)
+    (at 25.4 250.19 0)
     (effects (font (size 3.81 3.2385)) (justify left bottom))
     (uuid 1b2230e1-c3a1-48b0-8580-d69577585da9)
   )
   (text "4k:\n* Install 2732 at U1\n* JP2, JP3 not used\n32k:\n* Install AT28C256 at U2\n* Select 16k bank with JP2"
-    (at 27.94 172.72 180)
+    (at 27.94 172.72 0)
     (effects (font (size 2.032 2.54)) (justify left bottom))
     (uuid 57fe3c23-3f69-4501-8e1a-506123034579)
   )
@@ -1671,7 +1671,7 @@
     (uuid 60709336-4787-4937-b1be-d716e8cfad0a)
   )
   (text "CoCoEPROMpak is a free hardware design: you can redistribute it\nand/or modify it under the terms of the GNU General Public License\nas published by the Free Software Foundation, either version 3 of\nthe License, or (at your option) any later version.\nCoCoEPROMpak is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty\nof MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nSee the GNU General Public License for more details.\nYou should have received a copy of the GNU General Public License\nalong with CoCoEPROMpak. If not, see http://www.gnu.org/licenses/."
-    (at 200.66 193.04 180)
+    (at 200.66 193.04 0)
     (effects (font (size 1.778 1.5113)) (justify left bottom))
     (uuid 773cb2dd-5bb6-42da-9114-f9ee2fcbd139)
   )
@@ -1680,7 +1680,7 @@
     (uuid f0a90c28-b801-4770-a242-e722257a4cb5)
   )
   (text "Copyright 2013 by Mark J. Blair\nDistributed under GPLv3\nhttps://github.com/NF6X/CoCoEPROMpak"
-    (at 25.4 228.6 180)
+    (at 25.4 228.6 0)
     (effects (font (size 3.81 3.2385)) (justify left bottom))
     (uuid f2b60175-0664-4734-a486-e16aad46b143)
   )
@@ -2125,7 +2125,7 @@
     (property "Value" "COCO-CART" (id 1) (at 132.08 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "CoCoEPROMpak:COCO-CART-2.1X1.75" (id 2) (at 132.08 114.3 0)
+    (property "Footprint" "Roni Footprints:COCO-CART-2.1X1.75" (id 2) (at 132.08 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 132.08 114.3 0)
@@ -2470,7 +2470,7 @@
       (reference "JP3") (unit 1) (value "JP3") (footprint "CoCoEPROMpak:JP3-100MIL")
     )
     (path "/2b982b89-b771-4ebc-91eb-a0e6cdf221f8"
-      (reference "P1") (unit 1) (value "COCO-CART") (footprint "CoCoEPROMpak:COCO-CART-2.1X1.75")
+      (reference "P1") (unit 1) (value "COCO-CART") (footprint "Roni Footprints:COCO-CART-2.1X1.75")
     )
     (path "/e32794ca-4818-47ba-b086-a599cff1572b"
       (reference "R1") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
