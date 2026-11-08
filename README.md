@@ -12,3 +12,9 @@ It walks through thirteen of my own hardware and software projects, from 8-bit c
 
 <sub>As an Amazon Associate, the author earns from qualifying purchases. Buying through this link
 supports these projects at no extra cost to you.</sub>
+
+## Writing the ROM from the CoCo
+
+The AT28C256 version can be programmed while it sits in the CoCo, with no programmer. The writer, the PC
+tool that prepares ROM images and its tests are in [`Software/EEWRITE`](Software/EEWRITE). It needs the
+/OE modification described there and in the book.
